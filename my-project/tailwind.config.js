@@ -9,9 +9,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+    },
     extend: {
       colors: {
-        vuejs: "#597E52",
+        vuejs: { 100: "#597E52", 923: "#0A6847" },
       },
     },
   },
