@@ -5,13 +5,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <>
-      <h1 className="text-3xl">Title 1</h1>
-      <h2 className="text-2xl">Title 2</h2>
-      <h3 className="text-xl">Title 3</h3>
-      <p className="text-base">Regular Paragraph</p>
-      <p className="text-sm">Description Paragraph</p>
-      <p className="text-xs note">Note paragraph</p>
-    </>
+    <div className="font-bold">
+      <h1 className="mb-4">First title</h1>
+      <h2 className="mb-3">Second title</h2>
+      <h3 className="mb-2">Third title</h3>
+      <h4 className="mb-1">Forth title</h4>
+      <p>This is a paragraph</p>
+    </div>
   );
 }
