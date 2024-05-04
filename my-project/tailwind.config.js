@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true
+      },
       colors: {
         vuejs: { 100: "#597E52", 923: "#0A6847" },
       },
