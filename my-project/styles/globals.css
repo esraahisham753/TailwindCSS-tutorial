@@ -3,11 +3,15 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    color: red;
-  }
-
   h1 {
     @apply mb-2 text-3xl font-bold;
+  }
+
+  h2 {
+    @apply mb-1 text-xl font-semibold;
+  }
+
+  a {
+    @apply text-blue-600 underline decoration-wavy hover:text-purple-600 transition underline-offset-4;
   }
 }

@@ -4,11 +4,11 @@ export default function Home() {
   return (
     <div>
       <h1>This is a title</h1>
-      <h2 className="text-xl font-semibold mb-1">This is a subtitle</h2>
-      <p className="text-base">This is a paragraph</p>
-      <a href="#">This is an anchor</a>
+      <h2>This is a subtitle</h2>
+      <p>This is a paragraph</p>
+      <a href="https://freecodecamp.org">This is an anchor</a>
       <div>
-        <button>This is a button</button>
+        <button className="btn">This is a button</button>
       </div>
       <div>
         <input type="text" />
@@ -24,7 +24,7 @@ export default function Home() {
         </select>
       </div>
       <h1>This is a title</h1>
-      <h2 className="text-xl font-semibold mb-1">This is a subtitle</h2>
+      <h2>This is a subtitle</h2>
     </div>
   );
 }
