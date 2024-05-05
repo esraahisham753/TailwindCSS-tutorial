@@ -12,6 +12,51 @@
   }
 
   a {
-    @apply text-blue-600 underline decoration-wavy hover:text-purple-600 transition underline-offset-4;
+    @apply text-blue-600 underline decoration-wavy hover:text-purple-600 transition underline-offset-2;
+  }
+
+  .btn {
+    @apply px-4 py-3 rounded-lg hover:transition hover:duration-300 hover:opacity-80 disabled:bg-slate-400/30 hover:disabled:opacity-100;
+  }
+
+  .btn-primary {
+    @apply bg-sky-600 text-white;
+  }
+
+  .btn-secondary {
+    @apply bg-slate-800 text-white;
+  }
+
+  input,
+  select {
+    @apply p-1 mb-1 text-slate-500 border border-slate-300 outline-none rounded;
+  }
+
+  input[type="text"] {
+    @apply disabled:bg-slate-100 placeholder:italic;
+  }
+
+  input[type="checkbox"] {
+    @apply p-2 accent-purple-500 mr-1 mb-0 mt-0.5;
+  }
+
+  label {
+    @apply text-sm text-slate-700 font-medium leading-4;
+  }
+
+  select {
+    @apply pr-8;
+  }
+
+  .Select {
+    @apply w-32 inline-block cursor-pointer border border-slate-300 outline-none rounded;
+  }
+
+  .Select .child {
+    @apply text-slate-500 px-2 py-1;
+  }
+
+  .Select ul li {
+    @apply hover:bg-slate-100;
   }
 }
