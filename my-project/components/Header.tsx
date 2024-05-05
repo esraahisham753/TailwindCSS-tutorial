@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react"
+import { Sun } from "./Sun";
+import { Moon } from "./Moon";
 
 const Header = () => {
   const [darkMode, setDarkMode] = useState<boolean | undefined>(undefined);
@@ -22,9 +24,9 @@ const Header = () => {
   }, [darkMode]);
 
   return (
-    <div>
+    <div onClick={changeMode} className="cursor-pointer">
       {
-        darkMode ? 
+        darkMode ? <Sun /> : <Moon />
       }
     </div>
   )

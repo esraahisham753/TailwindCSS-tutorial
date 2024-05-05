@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ArrowDown } from "./ArrowDown";
+import Header from "@/components/Header";
 
 export default function Home() {
   const [isOpen, setIsopen] = useState(false);
@@ -14,6 +15,7 @@ export default function Home() {
 
   return (
     <div>
+      <Header />
       <h1>This is a title</h1>
       <h2>This is a subtitle</h2>
       <p>This is a paragraph</p>
